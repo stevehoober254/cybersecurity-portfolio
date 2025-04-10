@@ -1,4 +1,15 @@
-# Cybersecurity Engineer/Analyst Portfolio Projects
+# 🛡️ Cybersecurity Engineer Portfolio
+
+A showcase of blue-team engineering projects covering detection engineering, incident response, and threat intelligence automation. This repo contains Sigma rules, SOAR scripts, and log analysis workflows for real-world security ops.
+
+## 🔍 Highlights
+- Sigma rule writing & validation
+- Automated SOAR playbooks
+- Log parsing and threat hunting
+- Secret scanning & malware analysis
+- Incident response reporting templates
+
+## Project List
 
 ## 1. Enterprise SOC Simulator
 

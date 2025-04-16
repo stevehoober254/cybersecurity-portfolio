@@ -12,6 +12,7 @@ A showcase of blue-team engineering projects covering detection engineering, inc
 ## Project List
 
 ## 1. Enterprise SOC Simulator
+[View Project](./soc-simulator)
 
 ### Problem
 Most security analysts lack realistic labs to practice incident detection and response.
@@ -28,9 +29,15 @@ Create a SOC-in-a-box simulation environment using:
 - Build dashboards for alert investigation
 - Integrate with Sigma rules and MITRE ATT&CK
 
+### Screenshots
+![SOC Dashboard](./screenshots/soc-simulator/dashboard.png)
+![Alert Investigation](./screenshots/soc-simulator/investigation.png)
+![Threat Hunting](./screenshots/soc-simulator/hunting.png)
+
 ---
 
 ## 2. Phishing Detection Proxy
+[View Project](./phishing-proxy)
 
 ### Problem
 Organizations struggle to protect users from newly launched phishing sites.
@@ -47,9 +54,15 @@ Intercept and analyze user HTTP traffic using:
 - Log all phishing attempts with metadata
 - Provide daily phishing attempt summaries
 
+### Screenshots
+![Proxy Dashboard](./screenshots/phishing-proxy/dashboard.png)
+![Phishing Alert](./screenshots/phishing-proxy/alert.png)
+![Analytics Report](./screenshots/phishing-proxy/analytics.png)
+
 ---
 
 ## 3. GitHub Secret Scanner and Revoker
+[View Project](./secret-scanner)
 
 ### Problem
 Developers accidentally commit secrets (API keys, tokens) to public repositories.
@@ -64,3 +77,8 @@ Build a GitHub Actions-based scanner:
 - Scan new pushes and PRs for secrets
 - Auto-revoke and notify on detection
 - Generate compliance audit reports
+
+### Screenshots
+![Scan Results](./screenshots/secret-scanner/scan-results.png)
+![Alert Dashboard](./screenshots/secret-scanner/alerts.png)
+![Audit Report](./screenshots/secret-scanner/audit.png)

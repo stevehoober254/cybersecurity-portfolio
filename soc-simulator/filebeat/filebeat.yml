@@ -1,0 +1,8 @@
+filebeat.inputs:
+  - type: log
+    enabled: true
+    paths:
+      - /zeek/logs/current/*.log
+
+output.logstash:
+  hosts: ["logstash:5044"]
